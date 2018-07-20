@@ -1,25 +1,25 @@
-# TinySSD implementation @ ULSee Inc.
+# TinySSD Implementation @ ULSee Inc.
 ### Prospective
 We are looking forward to have a discussion with anyone who are interested in object detection and try to develop better faster algorithms. As the authors claimed, the tiny-ssd could achieve 61.3% on VOC2007, but our released version could only get an accuracy at 59.9%. Therefore, we are releasing our implementation and expect some common researches and discussions. 
 ### Description  
 This is an implementation of the following released paper by ULSee Inc.. It is a simplified structure for SSD(Single Shot MultiBox Detector). 
 
->@article{DBLP:journals/corr/abs-1802-06488,
-  author    = {Alexander Wong and
-               Mohammad Javad Shafiee and
-               Francis Li and
-               Brendan Chwyl},
-  title     = {Tiny {SSD:} {A} Tiny Single-shot Detection Deep Convolutional Neural
-               Network for Real-time Embedded Object Detection},
-  journal   = {CoRR},
-  volume    = {abs/1802.06488},
-  year      = {2018},
-  url       = {http://arxiv.org/abs/1802.06488},
-  archivePrefix = {arXiv},
-  eprint    = {1802.06488},
-  timestamp = {Thu, 01 Mar 2018 19:20:48 +0100},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1802-06488},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+>@article{DBLP:journals/corr/abs-1802-06488, </br>
+  author    = {Alexander Wong and  </br>
+               Mohammad Javad Shafiee and </br>
+               Francis Li and </br>
+               Brendan Chwyl}, </br>
+  title     = {Tiny {SSD:} {A} Tiny Single-shot Detection Deep Convolutional Neural </br>
+               Network for Real-time Embedded Object Detection}, </br>
+  journal   = {CoRR}, </br>
+  volume    = {abs/1802.06488}, </br>
+  year      = {2018}, </br>
+  url       = {http://arxiv.org/abs/1802.06488}, </br>
+  archivePrefix = {arXiv}, </br>
+  eprint    = {1802.06488}, </br>
+  timestamp = {Thu, 01 Mar 2018 19:20:48 +0100}, </br>
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1802-06488}, </br>
+  bibsource = {dblp computer science bibliography, https://dblp.org} </br>
 }
 
 **One Revision**
