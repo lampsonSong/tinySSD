@@ -38,21 +38,21 @@ In our prototxt, we add every fire module id by 1. The fire1 in paper is our fir
  > git clone https://github.com/lampsonSong/tinySSD.git
  
  3. The hierarchy of tinySSD is:
-- **data** 
-- **model**
- *_iter_180000.caffemodel -> *pretrain model (in **our prototxt**, we use fire2 ~ fire9)*
- *_iter_290000.caffemodel -> *final model*
-- **python_script**
- *generate.py  -> *you can generate deploy.prototxt and train.prototxt using this. Custome the corresponding path including **caffe, your project, your train lmdb*** 
- *deploy.prototxt -> *our deploy prototxt*
- *train.prototxt -> *our train prototxt*
-- **image**
- *slam.jpeg -> *test image*
- *result.jpeg -> *test result*
- *table0.png -> *table from paper*
- *table1.jpg -> *table after revison*
-- **README.md**
-- **solver.prototxt** -> *train solver.prototxt*
+* **data** 
+* **model**
+    * *_iter_180000.caffemodel -> *pretrain model (in **our prototxt**, we use fire2 ~ fire9)*
+    * *_iter_290000.caffemodel -> *final model*
+* **python_script**
+    * *generate.py  -> *you can generate deploy.prototxt and train.prototxt using this. Custome the corresponding path including **caffe, your project, your train lmdb*** 
+    * *deploy.prototxt -> *our deploy prototxt*
+    * *train.prototxt -> *our train prototxt*
+* **image**
+    * *slam.jpeg -> *test image*
+    * *result.jpeg -> *test result*
+    * *table0.png -> *table from paper*
+    * *table1.jpg -> *table after revison*
+* **README.md**
+* **solver.prototxt** 
  4. At the tinySSD directory, run
  
 > python python_script/generate.py
