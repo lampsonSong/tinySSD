@@ -59,7 +59,8 @@ In our prototxt, we add every fire module id by 1. The fire1 in paper is our fir
 
 
 to get *deploy.txt* and *train.prototxt* under *python_script*
-5. revise the demo.py to check the result
+
+ 5. revise the demo.py to check the result
 > python demo.py
 
 ![origin image](image/slam.jpeg) => ![revision image](image/result.jpeg)
