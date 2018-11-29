@@ -1,6 +1,6 @@
 # TinySSD Implementation @ ULSee Inc.
 ### Prospective
-We are looking forward to have a discussion with anyone who are interested in object detection and try to develop better faster algorithms. As the authors claimed, the tiny-ssd could achieve 61.3% on VOC2007, but our released version could only get an accuracy at 59.9%. Therefore, we are releasing our implementation and expect some common researches and discussions. 
+We are looking forward to have a discussion with anyone who are interested in object detection and try to develop better faster algorithms. As the authors claimed, the tiny-ssd could achieve 61.3% on VOC2007, but our released version could only get an accuracy at 59.9%(we re-train and get 61.5%, may be released in future). Therefore, we are releasing our implementation and expect some common researches and discussions. 
 ### Description  
 This is an implementation of the following released paper by ULSee Inc.. It is a simplified structure for SSD(Single Shot MultiBox Detector). 
 
@@ -42,6 +42,8 @@ In our prototxt, we add every fire module id by 1. The fire1 in paper is our fir
 * **model**
     * *_iter_180000.caffemodel -> *pretrain model (in **our prototxt**, we use fire2 ~ fire9)*
     * *_iter_290000.caffemodel -> *final model*
+    * tiny_ssd_voc_train.prototxt -> *train.prototxt, please modify data path*
+    * tiny_ssd_voc_test.prototxt -> *test.prototxt, please modify data path*
 * **python_script**
     * *generate.py  -> *you can generate deploy.prototxt and train.prototxt using this. Custome the corresponding path including **caffe, your project, your train lmdb*** 
     * *deploy.prototxt -> *our deploy prototxt*
